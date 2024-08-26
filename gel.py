@@ -12,14 +12,6 @@ tags = os.getenv('tags', '')
 tags = tags.split(',')
 exclude_tags = os.getenv('exclude_tags', '')
 exclude_tags = exclude_tags.split(',')
-# exclude_tags = ['loli', 'futanari', 'peeing', 'pee', 'death',
-#                 'pregnant', 'footjob', 'asphyxiation', 
-#                 'torture', 'feet', 'armpits', 'ai-generated',
-#                 'incest', 'rating:explicit', 'swimsuit', 
-#                 'bikini', 'ass', 'humanization', 'unzipping', 
-#                 'huge_breasts', 'huge ass', 'pet play',
-#                 'tongue out', 'tagme', 'large breasts',
-#                 'playboy bunny', 'wide hips', 'panties']
 mode = 'debug' # Possible Modes: randomdown, batchdown, randomlink, batchlink
 
 async def fileex(filename):
