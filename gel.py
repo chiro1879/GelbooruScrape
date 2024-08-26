@@ -12,7 +12,7 @@ tags = os.getenv('tags', '')
 tags = tags.split(',')
 exclude_tags = os.getenv('exclude_tags', '')
 exclude_tags = exclude_tags.split(',')
-mode = 'debug' # Possible Modes: randomdown, batchdown, randomlink, batchlink
+mode = 'randomdown' # Possible Modes: randomdown, batchdown, randomlink, batchlink
 
 async def fileex(filename):
     for root, dirs, files in os.walk("."):
